@@ -1,0 +1,30 @@
+.tituloPrincipal {
+    background-color: rgb(129, 194, 194);
+    text-align: center;
+    padding: 2em;
+}
+
+.bemVindo {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.funcao {
+    background-color: rgb(55, 92, 92);
+    margin-top: -2%;
+    text-align: center;
+    color: white;
+}
+
+button {
+    text-align: center;
+    padding: 2em 8em ;
+    margin: 2em;
+    display: inline-block;
+}
