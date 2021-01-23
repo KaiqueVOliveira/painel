@@ -16,14 +16,37 @@
 
     </header>
 
+    <script>
+
+        function apresentaMensagem(id){
+            var display = document.getElementById(id).style.display;
+
+            if(display == 'block'){
+                document.getElementById(id).style.display = 'none';
+            }
+            else{
+                document.getElementById(id).style.display = 'block';
+            }
+
+        }
+
+    </script>
+  
+    
     <body>
         <div class='areaCentral'>
             <h2 class='funcao'>Selecione uma mensagem</h2>
-            <div class='mensagem'></div>
+
+            <div id='caixaDaMensagem'>
+                <div id='exameIniciado' hidden><h1>Exame Iniciado</h1></div>
+                <div id='exameAviso' hidden><h1>Aviso</h1></div>
+                <div id='exameFinalizado' hidden><h1>Exame Finalizado</h1></div>
+            </div>
+            
             <ul>
-                <li><button id='botaoExameIniciado'><a href = './salas/sala1.html'>Exame Iniciado</a></button></li>
-                <li><button id='botaoAviso'><a href = './salas/sala2.html'>Aviso</a></button></li>
-                <li><button id='botaoExameFinalizado'><a>Exame Finalizado</a></button></li>
+                <li><button id='botaoExameIniciado' type='button' onclick="apresentaMensagem('exameIniciado')">Exame Iniciado</a></button></li>
+                <li><button id='botaoAviso' type='button' onclick="apresentaMensagem('exameAviso')">Aviso</a></button></li>
+                <li><button id='botaoExameFinalizado' type='button' onclick="apresentaMensagem('exameFinalizado')"><a>Exame Finalizado</a></button></li>
             </ul>
         </div>    
     </body>
@@ -31,4 +54,5 @@
     <footer>
         <h1>Site para estudo de html/css/javascript</h1>
     </footer>
+
 </html>

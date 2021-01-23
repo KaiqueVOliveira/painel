@@ -57,9 +57,23 @@ body {
     text-transform: uppercase
 }
 
-.mensagem {
-    width: 50em;
+#caixaDaMensagem {
+    width: 100%;
     height: 20em;
+    text-align: center;
+}
+
+#caixaDaMensagem h1{
+    position: fixed;
+    text-align: center;
+    background: rgb(26, 104, 156);
+    border-radius: 5px;
+    padding: 20px 0;
+    width: 30em;
+    margin: 0 25em;
+    margin-top: 5em;
+    
+
 }
 
 ul {
