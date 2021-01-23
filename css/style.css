@@ -1,31 +1,89 @@
-.tituloPrincipal {
+header {
     background-color: rgb(129, 194, 194);
     text-align: center;
-    padding: 2em;
-    font-size: 3em;
+    padding: 1.8em;
 }
 
-.bemVindo {
-    position: absolute;
-    top: 17%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+header h1{
+    font-size: 3em;
+    margin: 0.5em;
+    font-weight: bolder;
+}
+
+header h2 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.areaCentral{
+  height:30em;
+  background-color:rgba(129, 194, 194, 0.5);
+}
+
+.areaCentral a {
+    text-decoration: none;
+    color: white;
+}
+
 .funcao {
-    background-color: rgb(55, 92, 92);
+    background-color: rgb(26, 104, 156);
     margin-top: -2%;
+    padding: 0.3em;
     text-align: center;
     color: white;
+    font-weight: bold;
+    width:50em;
+    margin: -0.85em auto;
 }
 
 button {
     text-align: center;
-    padding: 2em 8em ;
-    margin: 2em;
+    margin-top: 5em;
     display: inline-block;
+    width: 40%;
+    padding: 30px 0;
+    background: rgb(26, 104, 156);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(42, 142, 209);
+    /**transform: rotate(10deg);**/
+    transform: scale(1.2);
+}
+
+ul {
+    width: 50em;
+    margin: -0 auto;
+}
+
+#botao1 {
+    float: right;
+    
+}
+
+
+#botao2 {
+    float: left;
+    
+}
+
+footer {
+    background-color: rgb(129, 194, 194);
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    padding: 1.8em;
 }
