@@ -64,13 +64,13 @@ body {
 }
 
 #caixaDaMensagem h1{
-    position: fixed;
+    position: absolute;
     text-align: center;
     background: rgb(26, 104, 156);
     border-radius: 5px;
     padding: 20px 0;
     width: 30em;
-    margin: 0 25em;
+    margin: 0 35%;
     margin-top: 5em;
     
 
